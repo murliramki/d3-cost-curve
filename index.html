@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link type="text/css" href="css/style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div id="chart"></div>
-		
-		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-		<script src="js/cost-curve-chart.js"></script>
-		<script src="js/test-data.js"></script>
-		<script>
-			// call chart
-			d3.select('#chart')
-				.data([testData])
-				.call(costCurveChart())
-		</script>
-		
-	</body>
+  <head>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="chart"></div>
+    
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/cost-curve-chart.js"></script>
+    <script src="js/test-data.js"></script>
+    <script>
+      // call chart
+      d3.select('#chart')
+        .data([testData])
+        .call(costCurveChart())
+    </script>
+    
+  </body>
 </html>
