@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+}
+#chart {
+	margin: 0 auto;
+	width: 80%;
+}
+.chart rect {
+	stroke: white;
+	fill: steelblue;
+}
+.chart rect:hover {
+	fill: lightblue;
+}
+.tooltip {
+	position: fixed;
+	text-align: left;
+	width: 150px;
+	padding: 1em;             
+	font-size: 10px;        
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;   
+	border: 0px;      
+	border-radius: 5px;           
+	pointer-events: none;         
+}
+.tooltip span:first-child {
+	font-weight: bold;
+	font-size: 12px;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-size: 11px;
+}
